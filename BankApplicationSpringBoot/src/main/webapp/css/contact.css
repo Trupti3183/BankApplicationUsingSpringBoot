@@ -1,0 +1,141 @@
+body {
+	font-family: Arial, sans-serif;
+	padding-bottom: 60px;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+.footer {
+	background-color: #f8f9fa; /* Set your preferred background color */
+	padding: 20px;
+	width: 100%;
+	position: fixed;
+	text-align:center;
+	bottom: 0;
+}
+
+.navbar {
+	background-color: #A3B8AF;
+}
+
+h1 {
+	text-align: center;
+	color: #4CAF50;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 20px;
+}
+
+th, td {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+.action-buttons {
+	margin-top: 20px;
+	text-align: center;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	margin: 5px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+.home {
+	background: url('/images/image2.jpg') center center no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.about {
+	padding: 20px;
+	background-color: #fff;
+}
+
+.contact {
+	background-color: #fff;
+	padding: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+.logout-btn {
+	background-color: #d9534f;
+}
+
+.logout-btn:hover {
+	background-color: #c9302c;
+}
+
+.contact {
+	background-color: #f8f9fa; /* Light grey background color */
+	padding: 20px; /* Add some padding for better spacing */
+	border-radius: 5px; /* Rounded corners */
+}
+
+.contact h2 {
+	color: #007bff; /* Blue color for the heading */
+	text-align: center;
+}
+
+.contact form {
+	max-width: 600px; /* Limit the width of the form */
+	margin: 0 auto; /* Center the form on the page */
+}
+
+.contact label {
+	display: block; /* Display labels on a new line */
+	margin-bottom: 8px; /* Add space below each label */
+	font-weight: bold; /* Make labels bold */
+}
+
+.contact input, .contact textarea {
+	width: 100%; /* Make input fields take the full width */
+	padding: 8px; /* Add padding for better appearance */
+	margin-bottom: 16px; /* Add space below each input field */
+	box-sizing: border-box;
+	/* Include padding and border in the element's total width and height */
+}
+
+.contact button {
+	background-color: #28a745; /* Green color for the submit button */
+	color: white; /* White text color */
+	padding: 10px 20px; /* Add padding for better appearance */
+	border: none; /* Remove the button border */
+	cursor: pointer; /* Add cursor pointer on hover */
+	border-radius: 5px; /* Rounded corners */
+}
+
+.contact button:hover {
+	background-color: #218838; /* Darker green color on hover */
+}
